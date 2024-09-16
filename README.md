@@ -16,11 +16,11 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone https://github.com/username/project_name.git
+    git clone https://github.com/JullyFleur/Credit-scoring.git
     ```
 2. Перейдите в директорию проекта:
     ```bash
-    cd project_name
+    cd Credit-scoring
     ```
 3. Установите необходимые зависимости:
     ```bash
