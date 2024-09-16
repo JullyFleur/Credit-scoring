@@ -54,7 +54,7 @@
 Порядковое кодирование для признака Saving accounts.
 ### [scaler.joblib](scaler.joblib)
 Обученная стандартизация признаков.
-### Описание решения
+### Описание_решения
 К категориальным признакам ('Sex', 'Housing', 'Checking account', 'Purpose') применено one-hot кодирование.  
 К Saving accounts применено порядковое кодирование. 
 При выборе модели сравнивались Random Forest Classifier и Gradient Boosting Classifier, для обеих был сделан подбор гиперпараметров через GridSearch. Лучше справилась модель градиентного бустинга (roc_auc: 0.764 на тесте). 
